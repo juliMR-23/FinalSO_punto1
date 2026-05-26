@@ -36,3 +36,6 @@ Pruebas de conectividad y respuesta de los endpoints definidos en app.py realiza
 Prueba de los endpoints con CURL
 <img width="1915" height="203" alt="Captura de pantalla 2026-05-26 074759" src="https://github.com/user-attachments/assets/604437c3-cc4e-47c5-b92a-b46e0330aee7" />
 <img width="1916" height="131" alt="Captura de pantalla 2026-05-26 074652" src="https://github.com/user-attachments/assets/9df08251-b4eb-49d9-9b90-7357fa864af1" />
+
+
+Gemini: https://gemini.google.com/share/0a4daf5ac1dc

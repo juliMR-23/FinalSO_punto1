@@ -1,4 +1,4 @@
-markdown_content = """# Examen Práctico de Sistemas Operativos - Punto 1
+# Examen Práctico de Sistemas Operativos - Punto 1
 ## Despliegue de FastAPI en AWS Lambda usando Docker
 
 Este repositorio contiene la solución al Punto 1 del examen práctico, donde se empaqueta una aplicación de FastAPI (`lambda_final`) utilizando Docker y se despliega en AWS Lambda a través de AWS ECR, exponiendo el servicio públicamente mediante una Lambda Function URL.

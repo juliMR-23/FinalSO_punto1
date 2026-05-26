@@ -11,7 +11,7 @@ echo "=== 1. Autenticando Docker con AWS ECR ==="
 aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${ECR_URL}
 
 echo "=== 2. Construyendo la imagen de Docker ==="
-docker build --platform linux/amd64 -t ${REPO_NAME} .
+docker buildx build --platform linux/amd64 --provenance=false --load -t ${REPO_NAME} .
 
 echo "=== 3. Asignando la etiqueta 'latest' ==="
 docker tag ${REPO_NAME}:${IMAGE_TAG} ${ECR_URL}/${REPO_NAME}:${IMAGE_TAG}
